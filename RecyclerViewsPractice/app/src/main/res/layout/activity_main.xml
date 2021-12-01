@@ -16,5 +16,14 @@
         android:id="@+id/main_normalRecyclerView"
         />
 
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Card Recycler View"
+        android:layout_margin="8dp"
+        android:padding="8dp"
+        android:id="@+id/main_cardRecyclerView"
+        />
+
 
 </LinearLayout>
