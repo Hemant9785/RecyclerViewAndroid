@@ -25,5 +25,33 @@
         android:id="@+id/main_cardRecyclerView"
         />
 
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Single Selection RecyclerView"
+        android:layout_margin="8dp"
+        android:padding="8dp"
+        android:id="@+id/main_singleSelection"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Multiple Selection RecyclerView"
+        android:layout_margin="8dp"
+        android:padding="8dp"
+        android:id="@+id/main_btn4"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Swipe Functionality RecyclerView"
+        android:layout_margin="8dp"
+        android:padding="8dp"
+        android:id="@+id/main_btn5"
+        />
+
+
 
 </LinearLayout>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.chauthai.swipereveallayout.SwipeRevealLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:dragEdge="right"
+    app:mode="same_level"
+    android:layout_margin="8dp"
+    android:id="@+id/swipeMainLayout"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/swipe_swipelayout"
+        >
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/purple_200"
+            android:text="delete"
+            android:id="@+id/swipe_delete_view"
+            />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:background="@color/purple_200"
+            android:text="edit"
+            android:id="@+id/swipe_edit_view"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content"
+
+        android:orientation="horizontal"
+        android:id="@+id/swipe_mainlayout"
+        >
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:textSize="40sp"
+            android:layout_marginTop="8dp"
+            android:layout_height="wrap_content"
+            android:background="@color/purple_700"
+            android:text="edit"
+            android:id="@+id/swipe_textView"
+            />
+    </LinearLayout>
+
+</com.chauthai.swipereveallayout.SwipeRevealLayout>

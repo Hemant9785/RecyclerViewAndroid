@@ -10,6 +10,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.RecyclerViewsPractice">
         <activity
+            android:name=".SwipeRecylerView.swipeActivity"
+            android:exported="true" />
+        <activity
+            android:name=".multipleSelection.multipleActivity"
+            android:exported="true" />
+        <activity
+            android:name=".SingleSelection.SingleSelectionActivity"
+            android:exported="true" />
+        <activity
             android:name=".card.cardActivity"
             android:exported="true" />
         <activity
